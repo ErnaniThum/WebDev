@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Denk One', sans-serif;
+}
+nav {
+	float: left;
+	background: darkgray;
+}
+main {
+	background: lightgray;
+}
+footer {
+	background: gray;
+	clear: left; /* or we can just use 'clear: left' in this case */
+}
