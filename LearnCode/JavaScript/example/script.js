@@ -14,6 +14,7 @@ function editItem() {
   var input = this.querySelector("input");
   input.focus();
   input.setSelectionRange(0, input.value.length);
+  console.log(input);
 }
 
 function updateItem() {
@@ -22,7 +23,7 @@ function updateItem() {
 }
 
 function itemKeypress(event) {
-  if (event.which === 13) {
+  if (event.which == 13) {
     updateItem.call(this);
   }
 }
