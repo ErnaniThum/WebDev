@@ -2,16 +2,26 @@
 <html>
 	<head>
 		<title>A Simple App</title>
+		<meta charset="UTF-8" />
 		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<header>
+			<div class="container" id="header">
+				<div class="title">
+					<h1>Comments</h1>	
+				</div>
+				<div class="banner">
+					<p> A simple app that allows a user to input comments</p>
+				</div>
+			</div>			
 		</header>
 		<main>
 	<!-- note that we use a dash here for our CSS class name
 		that contains multiple words, that's a CSS convention -->
-		<section class="comment-input">
-			<p>Add Your Comment:</p>
+		<div class="container">
+		<section class="comment-input">		
 			<input type="text"><button>+</button>
 			</section>
 		<section class="comments">
@@ -20,8 +30,13 @@
 			<p>And this is one more.</p>
 			<p>Here is another one</p>
 		</section>
+		</div class="container">
 	</main>
 	<footer>
+		<div class="container">
+			
+
+		</div>
 	</footer>
 	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 	<script src="app.js"></script>
