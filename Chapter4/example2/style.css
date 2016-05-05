@@ -7,8 +7,15 @@ header, main, footer {
 	min-width: 855px;
 }
 
+
+.comments p {
+	border-radius: 10px;
+	padding: 3px 5px;
+}
+
 .comments p:nth-child(even) {
 	background: lavender;
+
 }
 .comments p:nth-child(odd) {
 	background: gainsboro;
@@ -20,8 +27,13 @@ header, main, footer {
 	overflow: auto;
 }
 
-header .container {
-	border-bottom: 3px black solid;
+header .container, main .container {
+	border-bottom: 3px grey solid;
+}
+
+main .container{
+	min-height: 200px;
+
 }
 
 .title, .comment-input{
@@ -33,6 +45,7 @@ header .container {
 .banner, .comments{
 	float: right;
 	min-width: 570px;
+	margin: 20px 0px;
 	
 }
 
@@ -42,12 +55,14 @@ header .container {
 }
 
 .comment-input p {
-	padding: 10px 0;
+
+	padding: 10px 0 0px;
 	margin: 0;
 }
 
 .comment-input input {
 	height: 20px;
+	margin-right: 10px;
 }
 
 
@@ -55,14 +70,13 @@ header .container {
     background-color: #4CAF50; /* Green */
     border: 1px solid green;
     color: white;
-    padding: 10px 10px;
+    padding: 1px 3px;
     border-radius: 5px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
     text-align: center;
     text-decoration: none;    
-    font-size: 16px;
+    font-size: 24px;
     cursor: pointer;
+    margin: 5px 0;
 
 }
 
@@ -70,3 +84,11 @@ header .container {
     background-color: #3e8e41;
 }
 
+
+footer p {
+
+	font-size: 14px;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 5px 0px;
+}
