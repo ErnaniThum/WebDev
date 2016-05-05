@@ -41,4 +41,32 @@ header .container {
 	margin-bottom: 3px solid;
 }
 
+.comment-input p {
+	padding: 10px 0;
+	margin: 0;
+}
+
+.comment-input input {
+	height: 20px;
+}
+
+
+.comment-input button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.comment-input button:hover {
+    background-color: #3e8e41;
+}
 
