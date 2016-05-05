@@ -24,22 +24,21 @@ header .container {
 	border-bottom: 3px black solid;
 }
 
-
-
-.title {
+.title, .comment-input{
 
 	float: left;
 	min-width: 285px;
 }
 
-.banner {
+.banner, .comments{
 	float: right;
-	min-width: 470px;
-	margin: 10px 50px;
-	font-size: 18px;
+	min-width: 570px;
+	
 }
 
-.container #header {
+.container #header{
 	text-decoration: underline;
 	margin-bottom: 3px solid;
 }
+
+
