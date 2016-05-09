@@ -56,6 +56,7 @@ main .container{
 .comment-input input {
 	height: 20px;
 	margin-right: 10px;
+	margin-bottom: 6px;
 }
 
 .comment-input button {
