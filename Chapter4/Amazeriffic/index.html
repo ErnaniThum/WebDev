@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Amazeriffic</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -21,13 +22,18 @@
 		</header>
 		<main>
 			<div class="container">
-			
-					<ul class="menu">
-						<li lass="menuTable"><a href="#">Newest</a></li>
-						<li class="menuTable"><a href="#">Oldest</a></li>
-						<li class="menuTable"><a href="#">Add</a></li>
-					</ul>
-	
+					<div class="tabs">
+						<ul>
+							<li><a class="active" href="#">Newest</a></li>
+							<li><a href="#">Oldest</a></li>
+							<li><a href="#">Add</a></li>
+						</ul>	
+					</div>
+					<div class="content">
+						<p>First Line</p>
+						<p>Second Line</p>
+						<p>Third Line</p>
+					</div>
 			</div>
 
 		</main>
@@ -63,7 +69,12 @@
 				</div>
 			</div>
 			
-			<p id="teste"></p>
+			<script
+				src="http://code.jquery.com/jquery-2.2.3.js"
+				integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="
+				crossorigin="anonymous">
+			</script>
+
 			<script src="script.js"></script>
 		</footer>
 	</body>
