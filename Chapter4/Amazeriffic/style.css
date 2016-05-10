@@ -39,11 +39,9 @@ header .container {
 }
 
 
-
-main {
-	padding: 20px 0px;
+main .container   {
+	padding: 30px 0px;
 }
-
 
 .content{
 	width: 520px;
@@ -51,23 +49,22 @@ main {
 	padding-right: 50px;
 }
 
-.menu ul {
-	font-size: 20px;
-	color: red;
-}
 
 .menu li {
-    display: inline;
+ 	display: inline;
+ 	margin-right: 5px;
 }
 
-.menu li a {
-	background-color: lightgrey;
+.menuTable a{
+    background-color: lightgrey;
     color: darkred;
-    padding: 10px 20px;
     text-decoration: none;
-    border-radius: 4px 4px 0 0;
-    width: 50px;
+    padding: 15px 40px;
+    border-radius: 10px 10px 0 0;
+	font-size: 16px;
 }
+
+
 footer .container {
 	padding: 20px 0px;
 }
@@ -103,7 +100,7 @@ h3 {
 
 }
 
-li {
+.sitemap li  {
 	padding: 3px 0px;
 }
 
