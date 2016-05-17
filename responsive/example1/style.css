@@ -1,0 +1,28 @@
+@media all and (min-width: 800px) and (max-width: 1024px) {
+
+	.container {
+	  width: 80%;
+	  margin: auto;
+	  overflow: auto;
+	}
+	section,
+	aside {
+	  margin: 1.858736059%; /*  10px ÷ 538px = .018587361 */
+	}
+	section {
+	  float: left;
+	  width: 63.197026%;    /* 340px ÷ 538px = .63197026 */   
+	}
+	aside {
+	  float: right;
+	  width: 29.3680297%;  /* 158px ÷ 538px = .293680297 */
+	}
+}
+@media all and (min-width: 320px) and (max-width: 780px) {
+
+	section, aside {
+		float: none;
+	}
+	
+
+}
