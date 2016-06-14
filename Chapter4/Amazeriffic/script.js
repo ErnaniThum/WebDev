@@ -15,7 +15,17 @@
 // };
 
 var main = function () {
+	
 	"use strict";
+	
+	var toDos [
+		"Study",
+		"Work",
+		"Go to Market",
+		"Catch the kids at school"
+	];
+
+	// tabs handler
 	$(".tabs li a").toArray().forEach(function (element) {
 		// create a click handler for this element
 		$(element).on("click", function () {
@@ -25,6 +35,9 @@ var main = function () {
 			return false;
 		});
 	});
+
+	// adding more funcions
+
 };
 
 $(document).ready(main);
