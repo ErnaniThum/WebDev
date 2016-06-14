@@ -39,6 +39,7 @@ header .container {
 
 main .container   {
 	padding: 40px 0px;
+	min-height: 60%;
 }
 
 .content{
@@ -129,4 +130,22 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+.content h3.addTitle {
+	padding: 15px 0px;
+	font-size: 15px;
+}
+
+.content input.addInput {
+	padding: 2px 40px;
+}
+
+.content .addButton{
+	background: black;
+	color: white;
+	border-radius: 10px;
+	padding: 2px 6px; 
+	cursor: pointer;
+
 }
