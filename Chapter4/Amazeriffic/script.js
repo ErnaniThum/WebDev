@@ -13,6 +13,8 @@ var main = function () {
 		"Get Groceries"
 	];
 
+	var warning = false;
+
 	$(".tabs li a").toArray().forEach(function (element) {
 		// create a click handler for this element
 		$(element).on("click", function () {
@@ -44,12 +46,29 @@ var main = function () {
 					$("div.content").append('<h3 class="addTitle">Add your things to do.</h3>');
 					$("div.content").append('<input class="addInput "type="text" />');
 					$("div.content").append('<button class="addButton">+</button>');
-			}
+					
+					$(".addButton").click(function(){
+						var $input = $(".addInput");
+						
+						if ($input.val() !== ""){
+							toDos.push($input.val());
+							$input.val("");
+							warning = false;
+						}
+						else{
+							if (!warning){
+								$("div.content").append('<h4 class="invField">Insert something...</h4>');
+								warning = true;
+							}
+						}	
+					});
+				}
 			return false;
 		});
 	});
 
-
+	
+ 	
 	// adding more funcions
 	
 	//console.log($(".tabs li:first-child a"));

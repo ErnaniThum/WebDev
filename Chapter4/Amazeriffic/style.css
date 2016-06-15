@@ -57,6 +57,11 @@ main .container   {
 	font-size: 13px;
 }
 
+.invField {
+	color: red;
+	font-size: 10px;
+
+}
 .tabs {
 	height: 32px;
 }
@@ -132,13 +137,14 @@ a:hover {
 	text-decoration: underline;
 }
 
-.content h3.addTitle {
+.addTitle {
 	padding: 15px 0px;
 	font-size: 15px;
 }
 
 .content input.addInput {
-	padding: 2px 40px;
+	padding: 2px 10px;
+	width: 200px;
 }
 
 .content .addButton{
