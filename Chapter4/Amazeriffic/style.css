@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 body {
 	background: #f9e933;
 	font-family: 'Oswald', sans-serif;
